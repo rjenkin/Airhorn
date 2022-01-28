@@ -19,7 +19,7 @@ $socket_message = "Activate AirHorn ph2fu5Et";
 $request_send = FALSE;
 if (count($_POST) > 0) {
 
-  $result = airhorn_activation_request($socket_ip, $socket_port, $socket_message);
+	$result = airhorn_activation_request($socket_ip, $socket_port, $socket_message);
 	if (FALSE == $result) {
 		// Something went wrong
 		echo "<p>Error activating socket</p>";

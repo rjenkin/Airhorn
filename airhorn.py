@@ -31,7 +31,7 @@ sk = make_server_socket()
 
 # Continuously listen to socket
 try:
-  while True:
+	while True:
 		print("Listening..")
 		serve_client(sk)
 
